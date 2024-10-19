@@ -9,7 +9,7 @@ Traditional transformer models allocate a fixed amount of computational resource
 1. **High Training Costs**: Existing methods require training the entire model alongside routers, which determine which layers to skip, resulting in substantial computational overhead.
 2. **Risk of Performance Degradation**: Bypassing important layers can lead to a drop in model performance.
 
-To overcome these challenges, we introduce **Router-Tuning**, a method that fine-tunes only the router on a small dataset, drastically reducing the training costs. Additionally, we propose **Mindskip** (Attention with Dynamic Depths), which preserves model performance while significantly enhancing computational and memory efficiency. 
+To overcome these challenges, we introduce [**Router-Tuning**](https://arxiv.org/abs/2410.13184), a method that fine-tunes only the router on a small dataset, drastically reducing the training costs. Additionally, we propose **Mindskip** (Attention with Dynamic Depths), which preserves model performance while significantly enhancing computational and memory efficiency. 
 
 Our approach delivers competitive results, achieving up to **21% speedup** with only a **0.2% performance drop**, demonstrating its effectiveness in balancing efficiency and performance.
 
