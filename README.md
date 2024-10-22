@@ -3,6 +3,7 @@
 **[Shwai He](https://shwai-he.github.io/), Tao Ge, Guoheng Sun, [Bowei Tian](https://bowei.netlify.app/#about), Xiaoyang Wang, [Ang Li](https://www.ang-li.com/), Dong Yu**
 
 ## Introduction
+![mindskip.svg](mindskip.svg)
 
 Traditional transformer models allocate a fixed amount of computational resources to every input token, leading to inefficient and unnecessary computation. To address this inefficiency, [Mixture of Depths (MoD)](https://arxiv.org/abs/2404.02258) was introduced, dynamically adjusting computational depth by skipping less important layers. While promising, current MoD approaches face two significant challenges:
 
